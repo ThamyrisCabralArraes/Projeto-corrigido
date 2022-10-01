@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+}
+/* Formatação do cabeçalho */
+#cabecalho {
+    background-color: #f7b600 ;
+    padding: 15px;
+    text-align: center;
+}
+/* Formatação da Logo marca */
+#arealogo {
+    padding: 10px;
+}
+h1 {
+    color: #4e4e4e;
+}
+.branco {
+    color: #FFF;
+}
+ /* Formatação do menu */
+#areamenu {
+    padding: 10px;
+}
+a:link, a:visited {
+    color: #FFF;
+    padding: 8px 12px;
+
+}
+a:hover {
+    color: #f7b600;
+    background: #FFF;
+}
+a {
+    text-decoration: none;
+}
+/* Formatação do conteudo */
+
+#areaprincipal {
+    width: 920px;
+    margin: 0 auto;
+}
+#areapostagens {
+    width: 660px;
+    float: left;
+
+}
+#arealateral {
+    width: 240px;
+    float: right;
+
+}
+#rodape {
+    background: #CCC;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
