@@ -61,3 +61,8 @@ a {
     text-align: center;
     padding: 15px;
 }
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
