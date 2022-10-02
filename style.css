@@ -7,6 +7,15 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: #e6e6e6;
 }
+/* links Gerais */
+ a:link, a:visited {
+    color: #f7b600;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
 /* Formatação do cabeçalho */
 #cabecalho {
     background-color: #f7b600 ;
@@ -27,19 +36,20 @@ h1 {
 #areamenu {
     padding: 10px;
 }
-a:link, a:visited {
+#cabecalho a:link, #cabecalho a:visited {
     color: #FFF;
     padding: 8px 12px;
 
 }
-a:hover {
+#cabecalho a:hover {
     color: #f7b600;
     background: #FFF;
+    text-decoration: none ;
 }
 a {
     text-decoration: none;
 }
-/* Formatação do conteudo */
+/* Formatação de Postagens */
 
 #areaprincipal {
     width: 920px;
@@ -50,19 +60,43 @@ a {
     float: left;
 
 }
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #FFF;
+}
+
+/* Conteudo lareral */
+
 #arealateral {
     width: 240px;
     float: right;
+}
+.conteudolateral {
+    border: 1px red solid;
+    background: #FFF;
+    padding: 10px;
+    margin-bottom: 20px;
 
 }
+.postagemlateral {
+    font-size: 0.8em;
+    padding: 5px;
+    
+}
+h3 {
+    color: #565656;
+    background: #CCC;
+    padding: 5px;
+}
+hr {
+    color: #565656;
+}
+/* Rodape */
 #rodape {
     background: #CCC;
     clear: both;
     text-align: center;
     padding: 15px;
-}
-.postagem {
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #FFF;
+
 }
